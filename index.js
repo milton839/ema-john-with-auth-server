@@ -59,7 +59,7 @@ client.connect(err => {
 
 });
 
-const server = ('/',(req, res) => {
+app.get('/',(req, res) => {
   res.end('Hello World');
 });
 
